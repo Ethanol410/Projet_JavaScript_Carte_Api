@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: #5f584f;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+    background-color: #618a78;
+    margin-bottom: 2rem;
+}
+
+aside {
+    width: 20%;
+    min-width: 240px;
+    padding: 0 20px;
+}
+
+.tree-focus {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+aside h2 {
+    color: white;
+}
+
+.tree-focus h3 {
+    margin: 0 0 0.25em;
+    text-transform: capitalize;
+}
+
+.tree-focus h4 {
+    margin: 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #5f584f;
+}
+
+.tree-focus p {
+    font-size: 0.875rem;
+}
+
+#map {
+    height: 600px;
+    width: 80%;
+}
+
+.leaflet-popup-content h3,
+.leaflet-popup-content p {
+    margin: 0;
+}
+
+
+button>img {
+    height: 30px;
+    width: 30px;
+
+}
+
+.fleche_left {
+    background: transparent;
+}
+
+.fleche_right {
+    background: transparent;
+}
+
+.button_fleche {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    background: transparent;
+}
+
+.trie_essence {
+    margin: 15px auto;
+
+}
